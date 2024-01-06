@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{/* Replace #129C8F with your desired color */
+    background-image:url(../images/bottom.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000000;
+
+}
+.rotated-text{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotated-text h1{
+    transform: rotate(-90deg);
+    font-family: Open Sans;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 25px;
+    color: #129c8e31;
+    margin-bottom: -600px;
+}
+.nabver{
+    width: calc(100% - 100px);
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.nabver img{
+    height: 140px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 40px;
+    
+}
+.list li a{
+    text-decoration: none;
+    color:  #474747;
+}
+.head{
+    display: flex;
+} 
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-color: #129C8F;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+main{
+    width: calc(100% - 210px);
+    margin-left:210px ;
+    display: flex;
+    height: calc(100% - 140px);
+    justify-content: space-between;
+    margin-top: -20px;
+
+    padding: 0;
+
+}
+
+.main-part{
+    width: 40%;
+    margin-top: 50px;
+}
+.main-part{
+  
+}
+.main-part h4{
+    color: #064e47;
+    font-size: 45px;
+
+}
+.main-part h1{
+    color: #129C8F;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 20px;}
+.main-part p {
+    color:  #474747;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.main-part button{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.button-29 i{
+    margin-right: 4px;
+}
+.phone{
+    align-items: center;
+    appearance: none;
+    border: 1px solid #129C8F ;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+  
+  .phone:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  
+  .phone i{
+    margin-right: 4px;
+  }
