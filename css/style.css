@@ -118,25 +118,19 @@ body, html{
 }
 
 .main{
-    width: calc(100% - 210px);
-    margin-left:210px ;
-    display: flex;
-    height: calc(100% - 160px );
-    justify-content: space-between;
-    margin-top: -82px;
-    padding: 0;
-
+  position: relative;
+  display:flex;
+  right: -200px;
+  width:calc(100% - 200px) ;
+  height:calc(100vh - 160px) ;
+  justify-content: space-between;
 }
 
 .main-part{
     width: 40%;
     height: 100%;
-    margin-top: 150px;
  
  
-}
-.main-part{
-  
 }
 .main-part h4{
     color: #064e47;
@@ -349,7 +343,7 @@ body, html{
   color: #129C8F;
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: -40px;
+  margin-top: 20px;
 }
 .res-summary-1 h3{
   color: #064e47;
@@ -363,5 +357,67 @@ body, html{
 
 footer{
   width: 100%;
-  height: 80vh;
+  height: 70vh;
+  background-color: #064e4771; 
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.footer-sction{
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 30px;
+
+}
+.Contact{
+  width: 50%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.text-area{
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+}
+.text-area button{
+  width: 20%;
+}
+.text-area  h2, .Contact h2{
+  color: #129C8F;
+  font-size: 30px;
+}
+.Contact p{
+  color: #7a7878;
+}
+.text-area input{
+  padding:10px;
+  height: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.text-area textarea {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding:10px;
+  color: #064e47;
+}
+.icons{
+  display: flex;
+  gap: 40px;
+  font-size: 30px;
+  color: #129c8e;
 }
