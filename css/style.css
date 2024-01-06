@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: Open Sans;
+    font-family: 'Poppins', sans-serif;
 }
-body{/* Replace #129C8F with your desired color */
+body{
     background-image:url(../images/bottom.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -242,10 +243,68 @@ body, html{
   }
 
   .data div h4{
-    color: #129C8F;
+    color: rgb(18, 156, 143);
     font-size: 18px;
   }
   .data div h2{
     font-size: 22px;
     color:#7a7878 ;
   }
+  .what-i-do{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .what-i-do-area{
+    height: 100%;
+    padding: 30px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .skill{
+    width: 23%;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: rgba(18, 156, 143, 0.25) 0px 54px 55px, rgba(18, 156, 143, 0.12) 0px -12px 30px, rgba(18, 156, 143, 0.12) 0px 4px 6px, rgba(18, 156, 143, 0.17) 0px 12px 13px, rgba(18, 156, 143, 0.09) 0px -3px 5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .skill-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .skill P{
+    font-size: 14px;
+    color: #474747;
+    font-weight: 600;
+  }
+  .skill h3{
+     margin: 10px 0px;
+     color: #064e47;
+  }
+  .what-i-do-text{
+    text-align: center;
+  }
+  .what-i-do-text h3{
+    font-size: 35px;
+    color: #129C8F;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.what-i-do-text p{
+    color: #7a7878;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.skill img{
+    width: 25%;
+}
