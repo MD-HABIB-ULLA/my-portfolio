@@ -39,14 +39,14 @@ body, html{
 }
 .nabver{
     width: calc(100% - 100px);
-    height: 160px;
+    height: 12vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 200px;
 }
 .nabver img{
-    height: 160px;
+    height: 12vw;
 }
 .nav-list{
     display: flex;
@@ -58,7 +58,7 @@ body, html{
     gap: 40px;
     color:  #474747;
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 1.4vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -68,6 +68,16 @@ body, html{
 .list li a{
     text-decoration: none;
     color:  #474747;
+}
+.list li{
+  padding: .6vw;
+  border: .2vw solid transparent;
+  border-radius: 5px;
+  display: flex;
+}
+.list li:hover{
+  border: .2vw solid #129c8e;
+  box-shadow: rgba(18, 156, 143, 0.25) 0px 25px 55px, rgba(18, 156, 143, 0.12) 0px -12px 30px, rgba(18, 156, 143, 0.12) 0px 4px 6px, rgba(18, 156, 143, 0.17) 0px 12px 13px, rgba(18, 156, 143, 0.09) 0px -3px 5px;
 }
 .head{
     display: flex;
@@ -89,8 +99,8 @@ body, html{
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1vw;
+  padding-right: 1vw;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -100,7 +110,7 @@ body, html{
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
+  font-size: 1.4vw;
 }
 
 .button-29:focus {
@@ -112,17 +122,12 @@ body, html{
   transform: translateY(-2px);
 }
 
-.button-29:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
-  transform: translateY(2px);
-}
-
 .main{
   position: relative;
   display:flex;
   right: -200px;
   width:calc(100% - 200px) ;
-  height:calc(100vh - 160px) ;
+  height:calc(100vh - 12vw) ;
   justify-content: space-between;
 }
 
@@ -134,18 +139,18 @@ body, html{
 }
 .main-part h4{
     color: #064e47;
-    font-size: 45px;
+    font-size: 3vw;
 
 }
 .main-part h1{
     color: #129C8F;
-    font-size: 85px;
+    font-size: 6vw;
     font-weight: 700;
     margin-top: -10px;
     margin-bottom: 20px;}
 .main-part p {
     color:  #474747;
-    font-size: 18px;
+    font-size: 1.2vw;
     margin-top: 10px;
 }
 .main-part button{
@@ -166,13 +171,13 @@ body, html{
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    height: 48px;
+    height: 4vw;
     justify-content: center;
     line-height: 1;
     list-style: none;
     overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     position: relative;
     text-align: left;
     text-decoration: none;
@@ -182,7 +187,7 @@ body, html{
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 18px;
+    font-size: 1.4vw;
 }
   
   .phone:hover {
@@ -270,11 +275,16 @@ body, html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid transparent;
   }
   .skill-card{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+  }
+  .skill:hover {
+    transform: translateY(-5px);
+    border: 2px solid #129C8F;
   }
   .skill P{
     font-size: 14px;
