@@ -74,6 +74,7 @@ body, html{
   border: .2vw solid transparent;
   border-radius: 5px;
   display: flex;
+  transition: all ease 0.3s;
 }
 .list li:hover{
   border: .2vw solid #129c8e;
@@ -276,6 +277,7 @@ body, html{
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid transparent;
+    transition: all ease 0.3s;
   }
   .skill-card{
     width: 100%;
@@ -430,4 +432,16 @@ footer{
   gap: 40px;
   font-size: 30px;
   color: #129c8e;
+
+}
+.icons a{
+  text-decoration: none;
+  color: #129c8e;
+}
+.icons i{
+  transition: all ease 0.3s;
+}
+.icons i:hover{
+  transform: translateY(-5px);
+  color: #0dccb9;
 }
